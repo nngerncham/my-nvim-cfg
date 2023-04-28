@@ -15,9 +15,10 @@ local plugins = {
 	-- plugin manager
 	"folke/lazy.nvim",
 
-	-- themes
+	-- themes and appearances
 	"shaunsingh/nord.nvim",
 	"tyrannicaltoucan/vim-deep-space",
+	"xiyaowong/transparent.nvim",
 
 	-- commenting
 	"preservim/nerdcommenter",
