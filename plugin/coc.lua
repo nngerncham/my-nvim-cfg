@@ -3,7 +3,7 @@ vim.g.coc_global_extensions = {
   "coc-pyright",
 
   -- C/C++
-  "coc-clangd", 
+  "coc-clangd",
 
   -- web dev stuff
   "coc-prettier",

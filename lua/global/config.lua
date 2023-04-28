@@ -2,7 +2,7 @@
 vim.opt.syntax = "on"
 vim.cmd[[set background=dark]]
 vim.cmd[[set t_Co=256]]
-vim.cmd[[colorscheme nord]]
+vim.cmd[[colorscheme kanagawa-dragon]]
 vim.cmd[[set cc=80]]
 vim.cmd[[set number relativenumber]]
 vim.cmd[[set cursorline]]

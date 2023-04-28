@@ -14,11 +14,20 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
 	-- plugin manager
 	"folke/lazy.nvim",
+	"nvim-lua/plenary.nvim",
 
-	-- themes and appearances
+	-- navigation
+	"nvim-telescope/telescope.nvim",
+
+	-- themes
 	"shaunsingh/nord.nvim",
 	"tyrannicaltoucan/vim-deep-space",
+	"rebelot/kanagawa.nvim",
+
+	-- appearances
 	"xiyaowong/transparent.nvim",
+	"mhinz/vim-startify",
+	"romgrk/barbar.nvim",
 
 	-- commenting
 	"preservim/nerdcommenter",
@@ -34,7 +43,6 @@ local plugins = {
 	"vim-airline/vim-airline-themes",
 
 	-- file trees
-	"nvim-lua/plenary.nvim",
 	"nvim-tree/nvim-web-devicons",
 	"MunifTanjim/nui.nvim",
 	{ "nvim-neo-tree/neo-tree.nvim", branch = "v2.x"},
