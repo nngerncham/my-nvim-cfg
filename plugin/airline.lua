@@ -1,1 +1,1 @@
-vim.g.airline_theme = "deus"
+vim.g.airline_theme = "angr"

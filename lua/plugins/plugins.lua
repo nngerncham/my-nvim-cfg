@@ -37,6 +37,7 @@ local plugins = {
 
 	-- git
 	"airblade/vim-gitgutter",
+	"APZelos/blamer.nvim",
 
 	-- airline
 	"vim-airline/vim-airline",
