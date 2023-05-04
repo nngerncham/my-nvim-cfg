@@ -21,5 +21,6 @@
   "vim-gitgutter": { "branch": "master", "commit": "2ee95686c5944f99b42dd04fec005b30497006de" },
   "vim-snippets": { "branch": "master", "commit": "5094d3658023cf743379f45c4c34bcc0a39ca4a2" },
   "vim-startify": { "branch": "master", "commit": "81e36c352a8deea54df5ec1e2f4348685569bed2" },
+  "vimtex": { "branch": "master", "commit": "871ac461e9314598b5b26c3a1a9f5e36c17dff14" },
   "which-key.nvim": { "branch": "main", "commit": "4acffc92953a90a790603bfdab7c92319ab167b1" }
 }

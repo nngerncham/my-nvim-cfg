@@ -53,6 +53,9 @@ local plugins = {
 	"scalameta/nvim-metals",
 	"vim-autoformat/vim-autoformat",
 
+	-- LaTeX
+	"lervag/vimtex",
+
 	-- snippets
 	"SirVer/ultisnips",
 	"honza/vim-snippets",
