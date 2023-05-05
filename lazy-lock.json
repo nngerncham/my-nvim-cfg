@@ -11,6 +11,7 @@
   "nvim-metals": { "branch": "main", "commit": "26968e2768ffd59f7dcc26693c534ca91a80c928" },
   "nvim-web-devicons": { "branch": "master", "commit": "0568104bf8d0c3ab16395433fcc5c1638efc25d4" },
   "plenary.nvim": { "branch": "master", "commit": "253d34830709d690f013daf2853a9d21ad7accab" },
+  "telescope-command-palette.nvim": { "branch": "master", "commit": "9ce81be757b71785bde9272c947e76b4743dceeb" },
   "telescope.nvim": { "branch": "master", "commit": "942fe5faef47b21241e970551eba407bc10d9547" },
   "transparent.nvim": { "branch": "main", "commit": "f09966923f7e329ceda9d90fe0b7e8042b6bdf31" },
   "ultisnips": { "branch": "master", "commit": "0ad238b1910d447476b2d98f593322c1cdb71285" },

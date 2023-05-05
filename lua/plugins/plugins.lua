@@ -18,6 +18,7 @@ local plugins = {
 
 	-- navigation
 	"nvim-telescope/telescope.nvim",
+	"LinArcX/telescope-command-palette.nvim",
 
 	-- themes
 	"shaunsingh/nord.nvim",
