@@ -29,6 +29,7 @@ local plugins = {
 	"xiyaowong/transparent.nvim",
 	"mhinz/vim-startify",
 	"romgrk/barbar.nvim",
+	"andrewferrier/wrapping.nvim",
 
 	-- commenting
 	"preservim/nerdcommenter",

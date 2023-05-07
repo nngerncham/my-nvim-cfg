@@ -48,5 +48,4 @@ require('telescope').setup({
   }
 })
 require("telescope").load_extension("command_palette")
-
 vim.keymap.set('n', '<leader>cp', "<cmd>Telescope command_palette<CR>", {})

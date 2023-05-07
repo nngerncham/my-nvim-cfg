@@ -1,4 +1,5 @@
 local options = { noremap = true }
+local map = vim.api.nvim_set_keymap
 
-vim.api.nvim_set_keymap("n", "j", "gj", options)
-vim.api.nvim_set_keymap("n", "k", "gk", options)
+map("n", "j", "gj", options)
+map("n", "k", "gk", options)

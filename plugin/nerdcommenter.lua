@@ -2,6 +2,8 @@ vim.g.NERDSpaceDelims = 1
 vim.g.NERDDefaultAlign = "left"
 vim.g.NERDToggleCheckAllLines = 1
 
-local options = { noremap = true }
-vim.cmd[[vmap ++ <plug>NERDCommenterToggle]]
-vim.cmd[[nmap ++ <plug>NERDCommenterToggle]]
+local map = vim.api.nvim_set_keymap
+local opts = { noremap = true }
+
+map("n", "++", "<plug>NERDCommenterToggle", opts)
+map("v", "++", "<plug>NERDCommenterToggle", opts)
