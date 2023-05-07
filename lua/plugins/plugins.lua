@@ -60,7 +60,6 @@ local plugins = {
 
 	-- snippets
 	"SirVer/ultisnips",
-	"honza/vim-snippets",
 }
 
 local opts = {}

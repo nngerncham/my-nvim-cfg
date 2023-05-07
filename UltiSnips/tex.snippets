@@ -1,15 +1,3 @@
-snippet ltxheader "Basic setup for LaTeX document" b
-\documentclass[a4paper]{article}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{amsmath, amssymb}
-
-\begin{document}
-	$0
-\end{document}
-endsnippet
-
 snippet beg "begin{} / end{}" bA
 \\begin{$1}
 	$0
@@ -35,4 +23,28 @@ snippet item "Itemize" bA
 \begin{itemize}
 	\item $0
 \end{itemize}
+endsnippet
+
+snippet dfn "Definition" bA
+\begin{definition}[]
+	$0
+\end{definition}
+endsnippet
+
+snippet thm "Theorem" bA
+\begin{theorem}
+	$0
+\end{theorem}
+endsnippet
+
+snippet clm "Claim" bA
+\begin{claim}
+	$0
+\end{claim}
+endsnippet
+
+snippet prf "Proof" bA
+\begin{proof}
+	$0
+\end{proof}
 endsnippet
