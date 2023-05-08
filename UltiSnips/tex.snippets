@@ -1,15 +1,15 @@
-snippet beg "begin{} / end{}" bA
-\\begin{$1}
+snippet beg "Begin environment" bA
+\begin{$1}
 	$0
-\\begin{$1}
+\end{$1}
 endsnippet
 
 snippet fig "Figure environment" b
-\begin{figure}[${1:htpb}]
+\begin{figure}[h]
 	\centering
-	${2:\includegraphics[width=0.8\textwidth]{$3}}
-	\caption{${4:$3}}
-	\label{fig:${5:${3/\W+/-/g}}}
+	\includegraphics[width=0.8\textwidth]{$0}
+	\caption{Caption}
+	\label{fig:my_label}
 \end{figure}
 endsnippet
 
@@ -19,7 +19,7 @@ snippet enum "Enumerate" bA
 \end{enumerate}
 endsnippet
 
-snippet item "Itemize" bA
+snippet itm "Itemize" bA
 \begin{itemize}
 	\item $0
 \end{itemize}
@@ -47,4 +47,40 @@ snippet prf "Proof" bA
 \begin{proof}
 	$0
 \end{proof}
+endsnippet
+
+snippet aln "Aligned equation" bA
+\begin{equation}\label{eqn:my_label}
+\begin{aligned}
+	$0
+\end{aligned}
+\end{equation}
+endsnippet
+
+snippet eqn "Equation" bA
+\begin{equation}\label{eqn:my_label}
+	$0
+\end{equation}
+endsnippet
+
+snippet tbox "tcolorbox environment" bA
+\begin{tcolorbox}[title=$1]
+	$0
+\end{tcolorbox}
+endsnippet
+
+snippet NN "Set of natural numbers" b
+\mathbb{N}
+endsnippet
+
+snippet ZZ "Set of whole numbers (integers)" b
+\mathbb{Z}
+endsnippet
+
+snippet QQ "Set of rational numbers" b
+\mathbb{Q}
+endsnippet
+
+snippet RR "Set of real numbers" b
+\mathbb{R}
 endsnippet
