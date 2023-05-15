@@ -57,6 +57,12 @@ snippet aln "Aligned equation" bA
 \end{equation}
 endsnippet
 
+snippet aaln "Anonymous aligned equation" bA
+$$ \begin{aligned}
+	$0
+\end{aligned} $$
+endsnippet
+
 snippet eqn "Equation" bA
 \begin{equation}\label{eqn:my_label}
 	$0
@@ -69,18 +75,38 @@ snippet tbox "tcolorbox environment" bA
 \end{tcolorbox}
 endsnippet
 
-snippet mbn "Set of natural numbers" bA
+snippet mbn "Set of natural numbers" iA
 \mathbb{N}
 endsnippet
 
-snippet mbz "Set of whole numbers (integers)" bA
+snippet mbz "Set of whole numbers (integers)" iA
 \mathbb{Z}
 endsnippet
 
-snippet mbq "Set of rational numbers" bA
+snippet mbq "Set of rational numbers" iA
 \mathbb{Q}
 endsnippet
 
-snippet mbr "Set of real numbers" bA
+snippet mbr "Set of real numbers" iA
 \mathbb{R}
+endsnippet
+
+snippet eq? "Set ? over =" i
+\overset{?}{=}
+endsnippet
+
+snippet leq? "Set ? over <=" i
+\overset{?}{\leq}
+endsnippet
+
+snippet geq? "Set ? over >=" i
+\overset{?}{\geq}
+endsnippet
+
+snippet lt? "Set ? over <" i
+\overset{?}{<}
+endsnippet
+
+snippet gt? "Set ? over >" i
+\overset{?}{>}
 endsnippet
